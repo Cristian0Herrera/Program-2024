@@ -51,7 +51,6 @@ jQuery(document).ready(function($){
 		path = 'index.html';
 	}
 
-	
 	var target = $('#navbarSupportedContent ul li a[href="'+path+'"]');
 	// Add active class to target link
 	target.parent().addClass('active');
